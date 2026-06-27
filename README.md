@@ -466,5 +466,3 @@ Key administrative and staff actions (e.g., updating an order status) are logged
 - The project uses **Bootstrap's JS bundle** only for UI components like dropdowns and modals. Zero custom JavaScript logic was written.
 - The `BASE_URL` constant in `constants.php` is dynamically calculated, meaning the app works regardless of the folder name or server port.
 - The `price_at_time` column in `order_items` locks in the price at the moment of ordering, so historical order totals remain accurate even if an admin later changes a food item's price.
-#   G o u r m e t - P O S - O r d e r i n g  
- 
